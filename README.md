@@ -38,7 +38,7 @@ Upon running, the script will:
 ### Description
 In this section, we train multiple tiny language models on a character level using a cleaned dataset of Turkish dish names.
 - **Dataset**: `data/yemekler.txt` (preprocessed and cleaned into `data/temiz_isimler.txt`).
-- **Architectures**: We train four custom tiny models:
+- **Architectures**: We train four custom tiny models adapted from the [single_letter_transformers](https://github.com/malibayram/single_letter_transformers) repository:
   - **Gemma 4** (`models/gemma4`)
   - **Qwen 3** (`models/qwen3`)
   - **DeepSeek 3** (`models/deepseek3`)
